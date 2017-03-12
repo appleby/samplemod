@@ -16,9 +16,9 @@ setup(
     version='0.1.0',
     description='Sample package for Python-Guide.org',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Mike Appleby',
+    author_email='mike@app.leby.org',
+    url='https://github.com/appleby/python-skeleton',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )

@@ -61,4 +61,7 @@ Run setup.py
    python setup.py bdist
    python setup.py sdist
    python setup.py test
+   python setup.py nosetests
    python setup.py build_sphinx
+   python setup.py clean --all
+   python setup.py --help-commands

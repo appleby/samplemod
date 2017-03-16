@@ -25,7 +25,6 @@ Anaconda
 https://conda.io/docs/using/envs.html#managing-environments
 
 ::
-
     conda create --name envname --file requirements.txt python=3
 
 
@@ -35,7 +34,6 @@ Pipenv
 https://github.com/kennethreitz/pipenv
 
 ::
-
     pip install pipenv
     pipenv --three
     pipenv install --dev
@@ -47,10 +45,20 @@ Virtualenvwrapper
 https://virtualenvwrapper.readthedocs.io/en/latest/
 
 ::
-
     pip install virtualenvwrapper
     export WORKON_HOME=~/venv
     mkdir -p $WORKON_HOME
     source /usr/local/bin/virtualenvwrapper.sh
     mkvirtualenv env1
     pip install -r requirements.txt
+
+
+Run setup.py
+==============
+
+::
+   python setup.py build
+   python setup.py bdist
+   python setup.py sdist
+   python setup.py test
+   python setup.py build_sphinx

@@ -40,6 +40,18 @@ https://github.com/kennethreitz/pipenv
     pipenv --three
     pipenv install --dev
 
+Pyenv
+------
+
+https://github.com/pyenv/pyenv
+https://github.com/pyenv/pyenv-virtualenv
+
+::
+
+   pyenv virtualenv 3.8.5 env1
+   pyenv activate env1
+   pip install -r requirements.txt
+
 
 Virtualenvwrapper
 ------------------

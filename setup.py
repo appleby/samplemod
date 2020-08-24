@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='__PROJECT-NAME__',
     version='0.1.0',
     description='Sample package for Python-Guide.org',
     long_description=readme,
-    author='Mike Appleby',
-    author_email='mike@app.leby.org',
-    url='https://github.com/appleby/python-skeleton',
+    author='__USER-NAME__',
+    author_email='__USER-MAIL-ADDRESSS__',
+    url='https://github.com/__GITHUB-USER__/__PROJECT-NAME__',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
